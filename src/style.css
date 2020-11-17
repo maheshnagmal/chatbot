@@ -1,0 +1,74 @@
+body{
+    background:lightgrey;
+    line-height: 1.7;
+}
+
+.container{
+    max-width: 1200px;
+    width: 50%;
+    margin: 8% auto;
+    
+}
+
+.box{
+    background:  rgb(31, 187, 91);
+    padding: 0 10px;
+    margin: 5px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+
+.box1{
+    background: white;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 300px;
+}
+
+.sendermessage{
+    background: rgb(31, 187, 91);
+    border-radius: 10px;
+    display: inline-block;
+    color:white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.receiverblock{
+    align-content: right;
+    text-align: right;
+}
+
+.receivermessage{
+    background: rgb(230, 236, 232);
+    border-radius: 10px;
+    display: inline-block;
+    color:black;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.box2{
+    background:  rgb(31, 187, 91);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.input{
+    width: 50%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
+}
